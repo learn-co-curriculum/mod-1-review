@@ -151,6 +151,8 @@ stocks_2017['price_change'] = stocks_2017.close - stocks_2017.open
 
 ### Plot the top ten prices increases and decreases via subplots
 
+*Please create a code cell below to meet this task*
+
 
 ```python
 veterans_day_top_ten_decline = stocks_2017[stocks_2017.date=='2017-11-10']\
