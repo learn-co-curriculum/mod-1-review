@@ -179,11 +179,18 @@ for holiday in us_holidays:
 
 
 ```python
+# Your code here
+```
+
+
+```python
 # __SOLUTION__
 stocks_2017['price_change'] = stocks_2017.close - stocks_2017.open
 ```
 
 ### Plot the top ten prices increases and decreases via subplots
+
+*Please create a code cell below to meet this task*
 
 
 ```python
@@ -210,5 +217,5 @@ axes[1].set_title('Top Ten Stock Price Increase Veterans Day 2017');
 ```
 
 
-![png](index_files/index_23_0.png)
+![png](index_files/index_24_0.png)
 
