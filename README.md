@@ -38,7 +38,7 @@ The documentation for this API can be found [here](https://date.nager.at/swagger
 
 <center><h3>DATABASE SCHEMA</h3></center>
 
-![schema](db_schema.png)
+<img src="db_schema.png" width=500 height=500>
 
 # Please complete the above tasks below.
 >Sections have been provided to offer some guidance and structure as you work through this problem.
