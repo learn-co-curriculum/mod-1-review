@@ -12,15 +12,17 @@
 1. A dataframe containing all stock prices for 2017. 
     - Please report if any columns have null values.
     - Drop any null values from this dataframe. 
+    
+2. Find the top ten single day stock increases in 2017.
 
-2. A plot showing how many observations in the data occur on a US public holiday. 
+3. A plot showing how many observations in the data occur on a US public holiday. 
     - Please print the names of the public holidays that are found within the dataset.
 
-3. A statement clarifying whether or not the `BDX` stock rose or fell on Veterans day of 2017. 
+4. A statement clarifying whether or not the `BDX` stock rose or fell on Veterans day of 2017. 
    - Please state what the opening and closing price for the stock was on Veterans day, and by how much it changed.
 
 
-4. A subplot containing two graphs.
+5. A subplot containing two graphs.
     - Plot 1: The top ten stock price *declines* on veterans day of 2017
     - Plot 2: The top ten stock price *increases* on veterans day of 2017
 > Please ensure every plot has a contextualizing title
@@ -53,9 +55,9 @@ The documentation for this API can be found [here](https://date.nager.at/swagger
 # Feel free to add more cells!
 ```
 
-# Data Collection
+## Task 1 - Data Collection
 
-## Query Database
+### Query Database
 
 <img src="https://www.computerhope.com/jargon/d/database.jpg" width=300 height=300>
 
@@ -64,6 +66,15 @@ The documentation for this API can be found [here](https://date.nager.at/swagger
 # Your work goes here
 # Feel free to add more cells!
 ```
+
+## Task 2 - Find the top ten
+
+In the cell below, Find the top ten single day stock increases and visualize the results as a sorted bar plot.
+
+
+The visualization should look something like this:
+
+![](first_plot.png)
 
 ## Public Holiday API
 
@@ -75,27 +86,32 @@ The documentation for this API can be found [here](https://date.nager.at/swagger
 # Feel free to add more cells!
 ```
 
-### How many observations fall on a public holiday?
+## Task 3.1 - How many observations fall on a public holiday?
 
 
 ```python
 # Your work here!
 ```
 
-### What holidays are found in this dataset?
+## Task 3.2 - What holidays are found in this dataset?
 
 
 ```python
 # Your work here!
 ```
 
-### Calculate the price change from opening to close
+## Task 4 - A statement clarifying whether or not the `BDX` stock rose or fell on Veterans day of 2017. 
 
 
 ```python
 # Your code here
 ```
 
-### Plot the top ten prices increases and decreases via subplots
+## Task 5 - Plot the top ten prices increases and decreases via subplots
 
 *Please create a code cell below to meet this task*
+
+
+```python
+
+```
